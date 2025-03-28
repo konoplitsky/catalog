@@ -1,7 +1,9 @@
-import styles from "./imageGallery.module.css";
 import { useProduct } from "../../context/useProduct.ts";
+
 import { ArrowRightIcon } from "@/shared/icons/ArrowRight.tsx";
 import { ArrowLeftIcon } from "@/shared/icons/ArrowLeftIcon.tsx";
+
+import styles from "./imageGallery.module.css";
 
 interface ImageGalleryProps {
   currentColor: Colors;

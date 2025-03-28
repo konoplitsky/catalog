@@ -1,6 +1,7 @@
 import { cn } from "@/shared/lib/cn";
-import styles from "./colorSelector.module.css";
 import { useProduct } from "../../context/useProduct.ts";
+
+import styles from "./colorSelector.module.css";
 
 interface ColorSelectorProps {
   colors: Colors[];

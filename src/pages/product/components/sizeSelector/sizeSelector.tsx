@@ -1,5 +1,5 @@
 import { cn } from "@/shared/lib/cn";
-import styles from "./SizeSelector.module.css";
+import styles from "./sizeSelector.module.css";
 import { useProduct } from "@/pages/product/context/useProduct.ts";
 
 interface SizeSelectorProps {
