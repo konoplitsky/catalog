@@ -1,0 +1,19 @@
+.productCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+
+.link {
+  font-size: 20px;
+  cursor: pointer;
+}

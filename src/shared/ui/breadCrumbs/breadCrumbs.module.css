@@ -1,0 +1,23 @@
+.bread_crumbs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+
+  .label {
+    color: black;
+  }
+
+  .icon {
+    color: black;
+  }
+
+}

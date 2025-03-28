@@ -1,0 +1,29 @@
+.imageGallery {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid darkgray;
+}
+
+.imageControls {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+}
