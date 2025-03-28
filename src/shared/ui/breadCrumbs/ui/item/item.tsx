@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeftIcon } from "../../../../icons/ArrowLeftIcon.tsx";
 
-import styles from "../../breadcrumbs.module.css";
+import styles from "../../breadCrumbs.module.css";
 
 interface ItemProps {
   children: ReactNode;
