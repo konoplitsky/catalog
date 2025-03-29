@@ -22,10 +22,12 @@ export const ImageGallery = ({ currentColor }: ImageGalleryProps) => {
       />
       <div className={styles.imageControls}>
         <ArrowLeftIcon
+          data-testid="ArrowLeftIcon"
           className={styles.icons}
           onClick={() => handlePrevImage(currentColor)}
         />
         <ArrowRightIcon
+          data-testid="ArrowRightIcon"
           className={styles.icons}
           onClick={() => handleNextImage(currentColor)}
         />

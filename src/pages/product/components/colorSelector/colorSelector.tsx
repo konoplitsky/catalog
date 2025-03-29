@@ -14,6 +14,7 @@ export const ColorSelector = ({ colors }: ColorSelectorProps) => {
     <div className={styles.colorSelector}>
       {colors.map((color, index) => (
         <div
+          key={color.id}
           className={styles.colorBox}
           onClick={() => handleColorSelect(index)}
         >

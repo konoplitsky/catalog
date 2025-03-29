@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
 import { ColorSelector, ImageGallery, SizeSelector } from "./components";
+import { useProductQuery, useSizesQuery } from "./api/hooks";
 import { ProductProvider } from "./context/poductProvider.tsx";
-import { useProductQuery, useSizesQuery } from "./api";
+import { useProduct } from "./context/useProduct.ts";
 
-import { useProduct } from "@/pages/product/context/useProduct.ts";
 import { URLS } from "@/app/router/urls.ts";
 import { Breadcrumbs } from "@/shared/ui/breadCrumbs/breadCrumbs.tsx";
 

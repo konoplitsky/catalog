@@ -6,7 +6,9 @@ interface ProductsListProps {
 }
 
 export const ProductsList = ({ products }: ProductsListProps) => (
-  <div className={styles.container}>
-    {products?.map((product) => <ProductCard product={product} />)}
-  </div>
+  <ul className={styles.container}>
+    {products?.map((product) => (
+      <ProductCard key={product.id} product={product} />
+    ))}
+  </ul>
 );
